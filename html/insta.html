@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <!-- 맨위 상단바 -->
     <header>
         <nav class="nav_1">
             <div class="logo"><img src="/img/logo.png"></div>
@@ -30,9 +31,9 @@
         <hr class="header_line" />
 
     </header>
+    <!-- 맨위상단바 끝 -->
 
-
-
+    <!-- 중간아이콘 -->
     <span class="header_topbar">
         <div class="topbar_box">
             <span class="topbar_icon">
@@ -77,6 +78,8 @@
         </div>
 
     </span>
+    <!-- 중간아이콘 끝-->
+
     <div class="box2">
         <div class="body_box1">
             <span class="plofiles">
@@ -92,6 +95,7 @@
                     </div>
                     <div class="plofiles_g"></div>
                 </div>
+
                 <!-- 여기 모달 -->
                 <div class="body_modal"><button type="button" class="btn btn-light" data-toggle="modal"
                         data-target="#myModal">
@@ -138,16 +142,37 @@
                     <span class="material-icons">explore</span>
                 </ui>
                 <div>
-                    <span class="material-icons">bookmark_border</span>
+                    <span class="material-icons" style="margin-top: 20px; margin-right: 20px;">bookmark_border</span>
                 </div>
             </nav>
-            <div class="like">좋아연</div>
-            <div>댓글</div>
-            <div class="time">5분전..</div>
-            <div></div>
+
+            <div id="comment-list">
+                <div id="item-1">좋아연 41개</div>
+                <div id="item-2">
+                    <div style="font-size: smaller;">h_dsagw...</div>
+                    <div style="font-size: x-small;">더보기...</div>
+                </div>
+            </div>
+
+            <div class="datgul">
+                <input type="text" id="input-comment" class="gul" />
+                <button onclick="addCommnet()" class="rptl">게시</button>
+            </div>
+
+
+
         </div>
     </div>
     </div>
+
+
+    <script>
+        function addCommnet() {
+            var comment = $("#input-comment").val();
+            $("#comment-list").prepend("<div>" + comment + "</div>");
+        }
+
+    </script>
 </body>
 
 </html>

@@ -153,9 +153,6 @@ header{
     width: 100%;
 }
 
-
-
-
 .body_modal{
     display: flex;
     justify-content: flex-end;
@@ -189,4 +186,150 @@ header{
     flex-direction: column;
     align-items: center;
     font-size: x-small;
+}
+
+.datgul{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #dbdbdb;
+}
+.gul{
+    border: 0px solid white;
+    width: 100%;
+    height: 100%;
+}
+.rptl{
+    width: 5%;
+    border: 0px solid #dbdbdb;
+    background-color:white;
+    color: turquoise;
+}
+/* ---------------------------insta.html */
+
+.profile_top{
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+.profile_p1box{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile_p1 img{
+    margin-left: 30%;
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+}
+
+.profile_gulbox{
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.house_box{
+    margin-top: 10px;
+    margin-left: 20px;
+
+    cursor: pointer;
+    
+}
+.profile_house{
+    display: flex;
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+}
+.profile_info{
+    display: flex;
+    justify-content: space-between;
+}
+.profile_info span{
+    font-size: small;
+}
+
+.footer_1box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+	height:60px;
+	bottom:0;
+    left:0;
+    background-color: #fafafa;
+}
+
+footer span{
+    font-size: x-small;
+    color: gray;
+    margin-right: 10px;
+    align-items: center;
+}
+.dropup button{
+    font-size: x-small;
+    color: gray;
+    margin-top: 5px;
+}
+
+.house_big{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-color: #fafafa;
+}
+.big_big{
+    display: flex;
+    width: 80%;
+    height: 95%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.big_small1{
+    width: 20%;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px 0px 0px 5px;
+}
+.big_small1 div {
+    margin-left: 30px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+.big_small2{
+    width: 20%;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.big_small2 div{
+    display: flex;
+    justify-content: flex-end;
+}
+.big_small3{
+    width: 80%;
+    border-top: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    border-radius: 6px;
+}
+.big_small3 div{
+    margin-left: 30px;
+    color: gray;
+}
+.big_small3 input{
+    width: 60%; 
+    margin-top: 30px;
+    border: 1px solid #dbdbdb;
 }

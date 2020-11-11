@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Instagram</title>
+</head>
+<header>
+    <nav class="nav_1">
+        <div class="logo"><img src="/img/logo.png"></div>
+        <div class="logo search">
+            <input type="text" name="username" placeholder="검색" required />
+        </div>
+        <ui class="logo">
+            <span class="material-icons">home</span>
+            <span class="material-icons">send</span>
+            <span class="material-icons">explore</span>
+            <span class="material-icons">favorite_border</span>
+            <span class="material-icons">account_circle</span>
+        </ui>
+    </nav>
+    <hr class="header_line" />
+</header>
+
+<body>
+    <div class="profile_top">
+        <div class="profile_p1box">
+            <div class="profile_p1"><img src="/img/profile.jpg"></div>
+        </div>
+        <div class="profile_gulbox">
+            <div style="font-size: x-large; display: flex;">
+                <div>Park_sujun</div>
+                <div class="house_box"><button class="profile_house"> 프로필 편집 </button> </div>
+                <!-- 모달시작 -->
+                <div>
+                    <div class="body_modal"><button type="button" class="btn btn-light" data-toggle="modal"
+                            data-target="#myModal">
+                            <span class="material-icons">
+                                settings</span></button>
+                    </div>
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content ">
+                                <!-- Modal body -->
+                                <div class="modal-footer"
+                                    style="display=flex; justify-content: center; font-size: small">
+                                    비밀번호 변경
+                                </div>
+                                <div class="modal-footer"
+                                    style="display=flex; justify-content: center; font-size: small">
+                                    네임 태그
+                                </div>
+                                <div class="modal-footer"
+                                    style="display=flex; justify-content: center; font-size: small">
+                                    앱 및 웹사이트
+                                </div>
+                                <div class="modal-footer"
+                                    style="display=flex; justify-content: center; font-size: small">
+                                    알림
+                                </div>
+                                <div class="modal-footer"
+                                    style="display=flex; justify-content: center; font-size: small">
+                                    공개 범위 및 보안
+                                </div>
+                                <div class="modal-footer"
+                                    style="display=flex; justify-content: center; font-size: small">
+                                    로그인 활동
+                                </div>
+                                <div class="modal-footer"
+                                    style="display=flex; justify-content: center; font-size: small">
+                                    instagram에서 보낸 이메일
+                                </div>
+                                <div class="modal-footer"
+                                    style="display=flex; justify-content: center; font-size: small">
+                                    문제 신고
+                                </div>
+                                <div class="modal-footer"
+                                    style="display=flex; justify-content: center; font-size: small">
+                                    로그아웃
+                                </div>
+                                <button type="button" class="btn btn-outline-light text-dark" data-dismiss="modal"
+                                    style="border-top:1px solid #dee2e6; font-size: small">취소</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 모달끝 -->
+            </div>
+            <div class="profile_info">
+                <span>게시물 0</span>
+                <span>팔로워 0</span>
+                <span>팔로우 0</span>
+            </div>
+            <div style="font-weight: bolder;">박용규</div>
+        </div>
+    </div>
+    <hr style="margin-left: 5%; margin-right: 5%;" />
+
+
+    <footer>
+        <div>
+            <div class="footer_1box">
+                <div class="footer_1">
+                    <span>소개</span>
+                    <span>블로그</span>
+                    <span>채용 정보</span>
+                    <span>도움말</span>
+                    <span>API</span>
+                    <span>개인정보처리방침</span>
+                    <span>약관</span>
+                    <span>인기계정</span>
+                    <span>해시태그</span>
+                    <span>위치</span>
+                    <div style="justify-content: center; display: flex;">
+                        <span>
+                            <!-- 언어버튼 -->
+                            <div class="container">
+                                <div class="dropup">
+                                    <button type="button" class="btn btn-Basic dropdown-toggle" data-toggle="dropdown">
+                                        한국어
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">영어</a>
+                                        <a class="dropdown-item" href="#">중국어</a>
+                                        <a class="dropdown-item" href="#">언어</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </span>
+                        <!-- 언어버튼끝 -->
+                        <span style="margin-top: 10px;">©2020 Instagram from Facebook</span>
+                    </div>
+                </div>
+            </div>
+            </footer_1>
+    </footer>
+
+</body>
+
+</html>

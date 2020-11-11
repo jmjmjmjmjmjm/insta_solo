@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Instagram</title>
+</head>
+
+<header>
+    <nav class="nav_1">
+        <div class="logo"><img src="/img/logo.png"></div>
+        <div class="logo search">
+            <input type="text" name="username" placeholder="검색" required />
+        </div>
+        <ui class="logo">
+            <span class="material-icons">home</span>
+            <span class="material-icons">send</span>
+            <span class="material-icons">explore</span>
+            <span class="material-icons">favorite_border</span>
+            <span class="material-icons">account_circle</span>
+        </ui>
+    </nav>
+    <hr class="header_line" />
+</header>
+
+<body>
+    <div class="house_big">
+        <div class="big_big">
+            <div class="big_small1">
+                <div>프로필 편집</div>
+                <div>비밀번호 변경</div>
+                <div>앱 및 웹사이트</div>
+                <div>이메일 및 SMS</div>
+                <div>푸시 알림</div>
+                <div>연락처 관리</div>
+                <div>공개 범위 및 보안</div>
+                <div>로그인 활동</div>
+                <div>Instagram에서 보낸 이메일</div>
+            </div>
+            <div class="big_small2">
+                <div class="icon_2" style="margin-top: 30px;">
+                    <span class="material-icons" style="font-size: 36px;">account_circle</span>
+                </div>
+                <div style="margin-top: 30px;">이름</div>
+                <div style="margin-top: 70px;">사용자 이름</div>
+                <div style="margin-top: 40px;">웹사이트</div>
+                <div style="margin-top: 30px;">소개</div>
+                <div style="margin-top: 110px;">이메일</div>
+                <div style="margin-top: 10px;">전화번호</div>
+                <div style="margin-top: 10px;">성별</div>
+                <div style="margin-top: 10px;">비슷한 계정 추천</div>
+            </div>
+            <div class="big_small3">
+                <div style="margin-top: 20px;">parsujun</div>
+                <div style="font-size: smaller; color: dodgerblue;">프로필 사진 바꾸기</div>
+                <div><input type="text" name="username" placeholder="이름" required />
+                </div>
+                <div style="font-size: x-small; width: 55%;">사람들이 이름, 별명 또는 비즈니스 이름 등 회원님의 알려진 이름을 사용하여 회원님의 계정을 찾을 수
+                    있도록 도와주세요.
+                </div>
+                <div style="font-size: x-small; width: 55%;margin-top: 5px;">이름은 14일 안에 두 번만 변경할 수 있습니다.</div>
+                <div><input type=" text" style="width: 55%; margin-top: 20px;" name="username" placeholder="사용자 이름"
+                        required />
+                </div>
+                <div style="font-size: x-small; width: 55%;">대부분의 경우 14일 이내에 사용자 이름을 다시 (으)로 변경할 수 있습니다. 더 알아보기
+                </div>
+                <div>
+                    <input type=" text" style="width: 55%; margin-top: 10px;" name="username" placeholder="웹사이트"
+                        required />
+                </div>
+                <span>
+                    <span class="container">
+                        <form action="/action_page.php">
+                            <div class="form-group" style="width: 53%;">
+                                <textarea class="form-control" rows="1" id="comment" name="text"></textarea>
+                            </div>
+                        </form>
+                    </span>
+                </span>
+                <div style="font-size: smaller;">개인 정보</div>
+                <div style="font-size: x-small; width: 55%;">비즈니스나 반려동물 등에 사용된 계정인 경우에도 회원님의 개인 정보를 입력하세요. 공개 프로필에는 포함되지
+                    않습니다.</div>
+                <div>
+                    <input type=" text" style="width: 55%; margin-top: 10px;" name="username" placeholder="이메일"
+                        required />
+                </div>
+                <div>
+                    <input type=" text" style="width: 55%; margin-top: 10px;" name="username" placeholder="전화번호"
+                        required />
+                </div>
+                <div>
+                    <input type=" text" style="width: 55%; margin-top: 10px;" name="username" placeholder="성별"
+                        required />
+                </div>
+                <div style="font-size: x-small; width: 20%; margin-top: 10px;">
+                    팔로우할 만한 비슷한 계정을 추천할 때 회원님의 계정을 포함합니다.
+                </div>
+
+                <span class="container" style="margin-left: 10px; ">
+                    <button type="button" class="btn btn-primary btn-sm" style="margin-top: 20px;">제출</button>
+                </span>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <div class="footer_1box">
+                <div class="footer_1">
+                    <span>소개</span>
+                    <span>블로그</span>
+                    <span>채용 정보</span>
+                    <span>도움말</span>
+                    <span>API</span>
+                    <span>개인정보처리방침</span>
+                    <span>약관</span>
+                    <span>인기계정</span>
+                    <span>해시태그</span>
+                    <span>위치</span>
+                    <div style="justify-content: center; display: flex;">
+                        <span>
+                            <!-- 언어버튼 -->
+                            <div class="container">
+                                <div class="dropup">
+                                    <button type="button" class="btn btn-Basic dropdown-toggle" data-toggle="dropdown">
+                                        한국어
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">영어</a>
+                                        <a class="dropdown-item" href="#">중국어</a>
+                                        <a class="dropdown-item" href="#">언어</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </span>
+                        <!-- 언어버튼끝 -->
+                        <span style="margin-top: 10px;">©2020 Instagram from Facebook</span>
+                    </div>
+                </div>
+            </div>
+            </footer_1>
+    </footer>
+</body>
+
+</html>
